@@ -54,6 +54,9 @@ body {
 /*.content ul, .content ol {
 	padding: 0 15px 15px 40px;
 }*/
+#syllabus-preview {
+  max-width: 350px;
+}
 .resources-sections > .col-xs-3 {
   margin: 5px;
   min-width: 200px;
