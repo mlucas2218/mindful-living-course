@@ -1,2 +1,2 @@
 # mindful-living-course
-Course that I designed and taught as a senior at Rice University in Fall 2013
+Website for a 1-credit course that I designed and taught at Rice University in Fall 2013
