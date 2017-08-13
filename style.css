@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #CEF;
+	max-width: 1000px;
+}
+
+
+/* ----- HEADER ----- */
+.header img {
+	background: #8090AB;
+	display: block;
+}
+
+
+/* ----- NAVIGATION MENU ----- */
+.nav-justified {
+	background-color: #2B3274;
+}
+.nav-justified > li {
+	padding: 0;
+	color: #ffffff;
+	font-weight: normal;
+	border-bottom: 1px solid #ffffff;
+}
+.nav-justified > li > a {
+	margin-bottom: 0;
+	padding: 5px 5px;
+	color: #fff;
+	/*display: block;*/
+}
+.nav-justified > li.last-child {
+	border-bottom: 0;
+}
+.nav-justified > .active,
+.nav-justified > li:hover,
+.nav-justified > li > a:focus {
+	background-color: #4CBADA;
+	text-decoration: none;
+}
+.nav-justified > li > a:hover {
+	background-color: transparent;
+}
+
+
+/* ----- MAIN CONTENT ----- */
+.content-and-sidebar {
+  background-color: #FFF;
+}
+.content {
+  padding: 5px 25px 15px 25px;
+}
+/*.content ul, .content ol {
+	padding: 0 15px 15px 40px;
+}*/
+.resources-sections > .col-xs-3 {
+  margin: 5px;
+  min-width: 200px;
+  max-width: 300px;
+}
+#books {
+  padding-top: 10px;
+}
+.resource {
+  padding-bottom: 20px;
+}
+.resource > .col-sm-3 > img {
+  padding: 7px;
+  max-height: 250px;
+  max-width: 250px;
+}
+.buttons-row {
+  padding-top: 2px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+
+/* ----- RIGHT SIDEBAR ----- */
+.sidebar {
+  margin: 0;
+  padding: 15px;
+  background-color: #2B6937;
+  color: #FFF;
+}
+.sidebar > blockquote > p {
+  font-size: 14px;
+}
+
+
+/* ----- FOOTER ----- */
+.footer {
+  padding: 15px;
+  background-color: #2B3274;
+  color: #FFF;
+}
+.footer p {
+  margin: 0;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+/* For portrait tablets and larger */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+/* For wide window on any device */
+@media (min-width: 768px) {
+  /* Adjust menu display settings */
+  .nav-justified {
+    max-height: 48px;
+  }
+  .nav-justified > li {
+	border-left: 1px solid #fff;
+	border-bottom: 0;
+	position: static;
+  }
+  .nav-justified > li:first-child {
+	border-left: 0;
+  }
+  .nav-justified > li:last-child {
+	border-right: 0;
+  }
+  .nav-justified > li > a {
+	padding: 12px 5px;
+  }
+  
+  /* Adjust section settings on Resources page */
+  .resources-sections > .col-xs-3 {
+	margin: 0;
+	min-width: 50px;
+  }
+  .resource > .col-sm-3 > img {
+	width: 100%;
+	max-width: 200px;
+  }
+  .buttons-row {
+	text-align: left;
+  }
+}
