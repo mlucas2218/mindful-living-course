@@ -57,6 +57,10 @@ body {
 #syllabus-preview {
   width: 100%;
 }
+.topic {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 .resources-sections > .col-xs-3 {
   margin: 5px;
   min-width: 200px;
